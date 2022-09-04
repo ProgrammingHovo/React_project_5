@@ -41,9 +41,9 @@ if(loading) {
 }
 
 if(tours.length === 0) {
-  return <main>
-    <h2>no tours left</h2>
-    <button onClick={fetchTours}>Refresh</button>
+  return <main className='refresh-section'>
+    <h2 className='refresh-text'>No tours left</h2>
+    <button className='refresh-btn' onClick={fetchTours}>Refresh</button>
   </main>
 }
 
