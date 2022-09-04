@@ -5,7 +5,7 @@ const Tours = ({tours, removeTour}) => {
     return (
         <section>
             <div className="title">
-                <h2>Our Tours</h2>
+                <h2 className="page_title">Our Tours</h2>
             </div>
             <div className="underline"></div>
             <div>
